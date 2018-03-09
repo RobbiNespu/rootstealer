@@ -34,4 +34,4 @@ Done, look the video demo,rootstealer force commands only in root terminal...
 
 ## Tests
 
-Tested in ubuntu 16.04
+Tested on ubuntu 16.04
