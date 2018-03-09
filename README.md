@@ -35,3 +35,7 @@ Done, look the video demo, rootstealer force commands only on root terminal...
 ## Tests
 
 Tested on ubuntu 16.04
+
+# Note:
+
+I am not responsible for the evil use of that tool. Use that for a good purpose.
