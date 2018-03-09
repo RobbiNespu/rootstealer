@@ -18,18 +18,18 @@ Config  CMD  that you need use to do injection, edit  value of variable CMD in /
 Now you can take that following:
 
 ```
-# make; cd ..    #to backto rootstealer/
+# make; cd ..    #to back to path rootstealer/ 
 # pip intall gi
 or
 # pip install gir
 ```
-Run the python script to spy all windows gui and search window with "@root" string in title.
+Run the python script to spy all windows gui and search window with "root@" string in title.
 
 ```
 $ python rootstealer.py &
 ```
 
-Done, look the video demo.
+Done, look the video demo,rootstealer force commands only in root terminal...
 
 
 ## Tests
