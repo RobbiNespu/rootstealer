@@ -13,14 +13,16 @@ https://www.youtube.com/watch?v=V8sZQq7nerw
 # apt-get install libX11-dev libxtst-dev
 # cd rootstealer/sendkeys; 
 ```
-Config  CMD  that you need use to do injection, variable CMD in /rootstealer/sendleys/src/sendkeys.c
+Config  CMD  that you need use to do injection, edit  value of variable CMD in /rootstealer/sendleys/src/sendkeys.c
+
+Now you can takethat following:
 
 ```
 # pip intall gi
 or
 # pip install gir
 ```
-Run the program
+Run the python script to  spy all windows gui and  search  window with "@root" string in title.
 
 ```
 $ python rootstealer.py &
