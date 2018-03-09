@@ -15,18 +15,21 @@ https://www.youtube.com/watch?v=V8sZQq7nerw
 ```
 Config  CMD  that you need use to do injection, edit  value of variable CMD in /rootstealer/sendleys/src/sendkeys.c
 
-Now you can takethat following:
+Now you can take that following:
 
 ```
+# make; cd ..    #to backto rootstealer/
 # pip intall gi
 or
 # pip install gir
 ```
-Run the python script to  spy all windows gui and  search  window with "@root" string in title.
+Run the python script to spy all windows gui and search window with "@root" string in title.
 
 ```
 $ python rootstealer.py &
 ```
+
+Done, look the video demo.
 
 
 ## Tests
