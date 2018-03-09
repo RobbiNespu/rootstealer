@@ -3,7 +3,7 @@ Program to detect when linux user opens terminal with root and inject intrusive 
 
 ## Video of Proof of concept
 
-The proposal of this video is use tool rootstealer to spy all gui windows interactions and inject commands only in root terminal. This approach is util when attacker need to send a malicious program to prove that user  is vulnerable  to social  engineering. Force root command in terminal with lib X11 is a exotic way to show the diversity of weak points.
+The proposal of this video is use the tool rootstealer to spy all gui windows interactions and inject commands only in root terminal. This approach is util when attacker need to send a malicious program to prove that user  is vulnerable  to social  engineering. Force root command in terminal with lib X11 is a exotic way to show the diversity of weak points.
 
 https://www.youtube.com/watch?v=V8sZQq7nerw
 
