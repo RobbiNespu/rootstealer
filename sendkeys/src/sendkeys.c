@@ -70,7 +70,6 @@ int main(int argc, char **argv)
     			exit(1);
   		}
   
-	sleep(2);
   	XGetInputFocus(display, &winFocus, &revert);
   	XTestFakeButtonEvent(display, 1, 1, 0);
 	XTestFakeButtonEvent(display, 1, 0, 0);
