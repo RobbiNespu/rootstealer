@@ -29,7 +29,7 @@ Run the python script to spy all windows gui and search window with "root@" stri
 $ python rootstealer.py &
 ```
 
-Done, look the video demo,rootstealer force commands only in root terminal...
+Done, look the video demo, rootstealer force commands only on root terminal...
 
 
 ## Tests
