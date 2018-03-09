@@ -1,5 +1,5 @@
 ## Rootstealer
-Program to detect when linux user opens terminal with root and inject intrusive commands with X11 lib
+Program to detect when linux user opens terminal with root and inject intrusive commands in terminal with X11 lib.
 
 ## Video of Proof of concept
 
