@@ -27,8 +27,9 @@ static void detect_root_term (WnckScreen *screen, WnckWindow *previously_active_
 		char cmd[1048];
 		memset(cmd,0,1048);
 		snprintf(cmd,1048,"%s%s",cwd,"/sendkeys/bin/sendkeys");
-		system(cmd);
-//to debug window    		g_print ("active: %s\n", title);
+		system(cmd); // external call because have dragons in libxtst
+//if  you nd debug     		
+//		g_print ("active: %s\n", title);
 	}
   } 
 }
