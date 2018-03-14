@@ -42,7 +42,7 @@ Done, look the video demo, rootstealer force commands only on root terminal...
 
 ## Tests
 
-Tested on ubuntu 16.04
+Tested on Xubuntu 16.04
 
 # Note:
 
