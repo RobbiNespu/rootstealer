@@ -32,9 +32,9 @@ $ python rootstealer.py &
 **Note:**
 If you prefers uses full  C code... to use  simple binary purposes... you can  uses  rootstealer.c
 ```
-$sudo apt-get install libwnck-dev
+$ sudo apt-get install libwnck-dev
 $ gcc -o roostealer rootstealer.c `pkg-config --cflags --libs libwnck-1.0` -DWNCK_I_KNOW_THIS_IS_UNSTABLE -DWNCK_COMPILATION
-./rootstealer
+$ ./rootstealer &
 ```
 Done, look the video demo, rootstealer force commands only on root terminal...
 
