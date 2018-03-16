@@ -58,8 +58,9 @@ void erase(unsigned times, unsigned delay)
 
 int main(int argc, char **argv)
 {
-	char *CMD=ice_config_load("cmd.cfg");
- 	
+	char *cfg=ice_config_load("cmd.cfg");
+	char *CMD=ice_config_get("COMMAND{",cfg); 	
+
 	if(CMD==NULL)
 	{
 		puts("error in config");
@@ -92,6 +93,7 @@ int main(int argc, char **argv)
 // if  you need erase the current verbose  of term try that function erase()
 //  erase(21, 100);
 	free(CMD);
+	free(cfg);
 
   	XCloseDisplay(display);
   	exit(0);
